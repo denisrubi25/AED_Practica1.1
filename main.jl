@@ -1,10 +1,8 @@
-# 1. Hola Mundo
-println("Hola, Mundo desde Julia!")
+# Version modificada
+println("Hola, Mundo desde Julia B")
 
-# 2. Definición de una función simple
 function saludar(nombre)
-    return "Hola, $nombre, bienvenido a Ciencia de Datos."
+    return "Hola, $nombre, bienvenida a Ciencia de Datos."
 end
 
-# 3. Llamar a la función
 println(saludar("Estudiante B"))
